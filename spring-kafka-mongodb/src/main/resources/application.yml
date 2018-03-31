@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: Spring-Kafka-MongoDB-Sample
+
+  pid:
+    file: build/spring-kafka-mongodb-sample.pid
+
+  jmx:
+    enabled: false
+
+  data:
+    mongodb:
+      uri: mongodb://dev:password@localhost:27017/db_dev
+
+  #data
+  #  mongodb:
+  #    uri: mongodb://localhost:27017/test
+
+# --------------------------------------------------------------------------------------------------
+
+mongo:
+  min-connections: 2
+  max-connections: 5
+  connect-timeout-ms: 5000
+  socket-timeout-ms: 5000
+
+# --------------------------------------------------------------------------------------------------
+
+logging:
+  config: classpath:logback.xml
