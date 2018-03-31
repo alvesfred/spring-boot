@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: Spring Boot Ignite Sample
+  jackson:
+    default-property-inclusion: non_null
+
+enableFilePersistence: false
+igniteConnectorPort: 11211
+igniteServerPortRange: 47500..47509
+ignitePersistenceFilePath: ./data
+initialDelay: 10000
+fixedDelay: 30000
