@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>br.alvesfred</groupId>
-    <artifactId>spring-kafka-mongodb</artifactId>
+    <artifactId>spring-kafka-mongodb-sample</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>Spring Kafka MongoDB Sample</name>
+    <name>Spring Boot Kafka MongoDB Sample</name>
     <description>CRUD Sample Project using Kafka and MongoDB</description>
 
     <parent>

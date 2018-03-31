@@ -11,7 +11,7 @@
 	<packaging>jar</packaging>
 
 	<name>Spring Boot Ignite Sample</name>
-	<description>Spring Boot with Apache Ignite Sample</description>
+	<description>Spring Boot with Apache Ignite (in-memory key pair) Sample</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
