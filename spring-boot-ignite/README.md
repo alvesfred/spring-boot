@@ -17,4 +17,6 @@ JUnit
 
 https://hub.docker.com/r/apacheignite/ignite/
 
+# Web Console
 
+http://localhost:8080/swagger-ui.html
